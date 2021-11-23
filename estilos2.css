@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    color: #34495E;
+    }
+
+main{
+    padding: 50px;
+    }
+
+
+
+footer{
+        width: 100vh;
+        font-size: 13px;
+        background-color: #17202a;
+        color: azure;
+        text-align: center;
+        line-height: 1,5;
+        padding-top: 20px;
+    }
+
+/*ESTILOS*/
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #17202a;
+    text-align: center;
+    padding: 20px;
+}
+
+.h1{
+    font-weight: bold;
+    color: #17202a;
+    padding: 10px;
+    padding-top: 60px;
+    font-size: 50px
+}
+h2{
+    color: #1ABC9C;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.h2h1{
+    color: #1ABC9C;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 50px
+}
+
+
+
+h3 {
+    color:  #17202a;
+    font-weight: bold;
+    text-align: center;
+}
+
+.h3 {
+    color:  #17202a;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.h3h3{
+    color:  #727475;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo{
+    padding: 30px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 0px;
+    z-index: 99;
+    }
+
+.contactanos{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 80px;
+    position: fixed;
+    z-index: 88;
+}
+
+.f1{
+    font-size: 15px;
+    color: #1ABC9C;
+    }
+
+.padding{
+    padding-bottom: 60px;
+    }
+.aniversario {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 135px;
+    z-index: 999;
+    }
+
+    /*ANIMACIONES*/
+
+    .maxi-img{
+        transition: width 0,5s, height 0,5s ;
+        }
+    
+    .maxi-img:hover{
+        width: 650px;
+        height: 450px;
+        z-index: 99;
+        }
+    
+    .animacion {
+        animation-name: efecto;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+        animation-delay: 2s;
+        }
+
+        @keyframes efecto{
+            0%{
+                transform: rotate(0deg);
+            }
+            
+            100%{
+                transform: rotate(360deg)
+            }
+            }
